@@ -1,14 +1,68 @@
+
+.header1{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.header2 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 30px;
+}
+
+.header3 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 20px;
+}
+
+.simple-euro-text {
+  width: 700px;
+}
+.buy-it-on-text {
+  width: 300px;
+  margin-right: -20px;
+}
+
+.pump {
+  width: 50px;
+  height: 50px;
+}
+
+.euro-container {
+  margin-left: 19%;
+  height: 300px;
+  display: flex;
+  
+
+}
+
+.spin {
+  margin-right: 0px;
+}
+.arrow {
+  margin-top: 120px;
+  width: 100px;
+  transform: rotate(30deg);
+}
+
+.spin-text {
+  margin-right: -20px;
+  margin-bottom: 25px;
+  width: 300px;
+}
+
 #euro{
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
-    margin-top: -75px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-style: preserve-3d;
-    animation: spin 2.5s linear infinite;
-  }
+  transform-style: preserve-3d;
+  animation: spin 2.5s linear infinite;
+}
   
   .back{
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/133687/backeuro.png");
@@ -74,3 +128,49 @@
     0% {transform: rotateY(0deg);}
     100% {transform: rotateY(360deg);}
   }
+
+  .socials {
+
+  }
+ 
+  .social-arrow {
+    margin-top: 120px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .socials-text {
+    margin-top: 150px;
+    width: 150px;
+    display: inline-block;
+    line-height: 0;
+  }
+
+  .icon {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+  }
+  .header4 {
+    height: 100px;
+  }
+
+  .header5 {
+    height: 100px;
+  }
+
+  .header6 {
+    height: 100px;
+  }
+
+
+  @font-face {
+    font-family: 'Coiny';
+    src: url('fonts/Crispy_Corn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
