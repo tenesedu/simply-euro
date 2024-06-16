@@ -1,1 +1,1 @@
-﻿# simple-euro
+﻿# simply-euro
