@@ -7,6 +7,7 @@
 
 
 .header1{
+  
   height: 100px;
   display: flex;
   justify-content: center;
@@ -49,6 +50,7 @@
   height: 300px;
   display: flex;
   justify-content: center;
+  margin-left: 100px;
 }
 
 .spin {
@@ -70,6 +72,7 @@
 #euro{
   transform-style: preserve-3d;
   animation: spin 4s linear infinite;
+
 }
   
   .back{
@@ -211,13 +214,6 @@
   margin-top: 30px;
 }
 
-.header2 {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  margin: 30px;
-}
 
 .header3 {
   height: 30px;
@@ -229,7 +225,7 @@
 
   }
   .simple-euro-text {
-    width: 450px;
+    width: 400px;
   }
   .buy-it-on-text {
     width: 300px;
@@ -251,6 +247,12 @@
     flex-direction: column;
    
 }
+
+.euro-container {
+  
+  margin-left: 0px;
+}
+
 
 .spin-text {
     margin-top: 120px; /* Ajusta el margen superior según tus necesidades */
